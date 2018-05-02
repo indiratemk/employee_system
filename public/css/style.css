@@ -1,0 +1,49 @@
+.more:hover{
+    text-decoration: none;
+}
+.navbar.navbar-light a{
+    border-bottom: 1px solid #c9c9c9;
+}
+.navbar.navbar-light a:hover{
+    background: #fff;
+}
+.content{
+    box-shadow: 3px 3px #a4a4a4;
+}
+.table{
+    border: 1px solid #d6d6d6;
+}
+
+.pagination{
+    display: flex;
+    width: 520px;
+    margin-bottom:30px;
+    margin-top:20px;
+    margin-left: 24px;
+    text-align:center;
+    line-height: 1.8;
+}
+.pagination li{
+    width:60px;
+    height:30px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+
+}
+a:hover{
+    text-decoration: none;
+}
+.pagination li:hover{
+    background: #d7d7d7;
+}
+.pagination li.active{
+    background: #5199e0;
+    width:60px;
+    height:30px;
+}
+.pagination li.active span{
+    color: #fff;
+}
